@@ -1,8 +1,8 @@
 #include "whatever.hpp"
 
 int main( void ) {
-    unsigned int a = 2;
-    unsigned int b = 3;
+    std::string a = "2";
+    std::string b = "3";
     swap( a, b );
     std::cout << "a = " << a << ", b = " << b << std::endl;
     std::cout << "min( a, b ) = " << ::min( a, b ) << std::endl;
